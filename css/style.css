@@ -1,0 +1,23 @@
+input.correct {
+    border: 2px solid green;
+}
+
+input.incorrect {
+    border: 2px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit {
+    margin: 20px;
+    padding: 10px;
+}
+
+#result {
+    display: none;
+}
