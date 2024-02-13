@@ -11,7 +11,7 @@ function evaluateQuiz() {
     answer1.className = '';
     answer2.className = '';
 
-    if (answer1.value.trim().toLowerCase() === 'Ottawa') {
+    if (answer1.value.trim().toLowerCase() === 'ottawa') {
         points += 10;
         answer1.className = 'correct';
     } else {
